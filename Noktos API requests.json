@@ -1,0 +1,188 @@
+{
+	"info": {
+		"_postman_id": "0fc78dd4-65d8-4ba1-ba05-fa6aeb173efc",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5828415"
+	},
+	"item": [
+		{
+			"name": "Noktos Test",
+			"item": [
+				{
+					"name": "http://testnoktos.com.br/api/host/index",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://testnoktos.com.br/api/host/index",
+							"protocol": "http",
+							"host": [
+								"testnoktos",
+								"com",
+								"br"
+							],
+							"path": [
+								"api",
+								"host",
+								"index"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://testnoktos.com.br/api/host/store",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "Daniel",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "email@email.com",
+									"type": "text"
+								},
+								{
+									"key": "phone",
+									"value": "5611684162",
+									"type": "text"
+								},
+								{
+									"key": "rfc",
+									"value": "TERD9309256PA",
+									"type": "text"
+								},
+								{
+									"key": "business_name",
+									"value": "Unreal",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://testnoktos.com.br/api/host/store",
+							"protocol": "http",
+							"host": [
+								"testnoktos",
+								"com",
+								"br"
+							],
+							"path": [
+								"api",
+								"host",
+								"store"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://testnoktos.com.br/api/bedroom/store",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "Suit",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Vista al mar",
+									"type": "text"
+								},
+								{
+									"key": "quantity",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "price",
+									"value": "18000",
+									"type": "text"
+								},
+								{
+									"key": "code",
+									"value": "HKJVCV8999",
+									"type": "text"
+								},
+								{
+									"key": "host_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "bedrooms_types_id",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://testnoktos.com.br/api/bedroom/store",
+							"protocol": "http",
+							"host": [
+								"testnoktos",
+								"com",
+								"br"
+							],
+							"path": [
+								"api",
+								"bedroom",
+								"store"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Test",
+									"disabled": true
+								},
+								{
+									"key": "description",
+									"value": "Desciption test",
+									"disabled": true
+								},
+								{
+									"key": "quantity",
+									"value": "4",
+									"disabled": true
+								},
+								{
+									"key": "price",
+									"value": "6500",
+									"disabled": true
+								},
+								{
+									"key": "code",
+									"value": "VXCKJ83R2",
+									"disabled": true
+								},
+								{
+									"key": "host_id",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "bedrooms_types_id",
+									"value": "1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
